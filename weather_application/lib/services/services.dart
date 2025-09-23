@@ -4,7 +4,7 @@ import 'package:weather_application/weatherData/weather_data.dart';
 
 Future fetchWeatherInfo(city) async {
   try {
-    String apiKey = "70e69e834cd31976d2705c179a56fb6d";
+    String apiKey = "YOUR_API_KEY";
     Response response = await get(Uri.parse(
         "https://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apiKey"));
     if (response.statusCode == 200) {
