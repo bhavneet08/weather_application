@@ -11,8 +11,9 @@ Before using the Weather App, make sure you have the following:
 -  An API key from [openweathermap](https://openweathermap.org/api) to access weather data.
 
 ## Getting Started
-```bash
-git clone https://github.com/bhavneet08/weather_application.git
-cd weather_application
-flutter pub get
+    ```bash
+     git clone https://github.com/bhavneet08/weather_application.git
+     cd weather_application
+     flutter pub get
 
+kkk
